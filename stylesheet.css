@@ -1,0 +1,35 @@
+body{
+	background: #D6EAF8;
+}
+
+div{
+    border: 0.5px;
+	padding-top: 5px;
+}
+
+.caja1{
+	
+	background: rgb(135, 206, 250);
+}
+
+.caja2{
+	background: rgb(72, 212, 240);
+}
+
+.caja3{
+	background: rgb(0, 58, 255);
+	text-align:center;
+	color: rgb(255, 255, 255);
+}
+
+
+img{
+	width: 100px;
+	height: 50px;
+	transition: width 2s, height 4s;
+}
+
+img:hover{
+	width: 200px;
+	height: 100px;
+}
